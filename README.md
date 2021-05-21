@@ -22,7 +22,7 @@
 
 ### 4. Библиотека компонентов Components Library (CL)
 
-### 5. Несущие платы Carrier Boards
+### 5. Несущие платы Carrier Boards (CB) 
 
 ### 5.1. Библиотека несущих плат Carrier Boards Library (CBL)
 
@@ -46,3 +46,4 @@
 
 ### 8. Уровень аппаратных абстракций Hardware Abstraction Layer (HAL)
 
+### 9 Сравнение с управляющей библиотекой Bardy
