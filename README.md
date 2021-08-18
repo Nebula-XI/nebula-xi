@@ -1,6 +1,6 @@
 # nebula-xi
 
-### 1. Units Tree Configuration file (UTC)
+### 1. Units Tree Configuration (UTC)
 
 ### 1.1. Description
 
@@ -10,7 +10,7 @@
 
 ### 1.4. Example
 
-### 2. Units Information Structures - Info (UIS)
+### 2. Units Information Structures (UIS)
 
 ### 2.1. Description
 
