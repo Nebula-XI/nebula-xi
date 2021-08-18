@@ -1,49 +1,47 @@
 # nebula-xi
 
-### 1. Кофигурационный файл Units Tree (UTS)
+### 1. Units Tree Configuration file (UTC)
 
-### 1.1. Описание UTS
+### 1.1. Description
 
-### 1.2. Основы синтаксиса
+### 1.2. Basic syntax
 
-### 1.3. Разбор конфигурационого файла
+### 1.3. Parsing
 
-### 1.4. Пример конфигурации
+### 1.4. Example
 
-### 2. Информационные структуры Units Info (UIS)
+### 2. Units Information Structures - Info (UIS)
 
-### 2.1. Описание UIS
+### 2.1. Description
 
-### 2.2. Пример информационной структуры
+### 2.2. Example
 
-### 3. Классы устройств Units Devices (UDC)
+### 3. Units Device Classes (UDC)
 
-### 3.1. Описание UDC
+### 3.1. Description
 
-### 4. Библиотека компонентов Components Library (CL)
+### 4. Components Library (CL)
 
-### 5. Несущие платы Carrier Boards (CB) 
+### 5. Carrier Boards (CB) 
 
-### 5.1. Библиотека несущих плат Carrier Boards Library (CBL)
+### 5.1. Carrier Boards Library (CBL)
 
-### 5.1.1. Интерфейс несущих плат Carrier Boards Interface (CBI)
+### 5.1.1. Carrier Boards Interface (CBI)
 
-### 5.1.2. Подсистемы несущих плат Carrier Boards Subsystems (CBS)
+### 5.1.2. Carrier Boards Subsystems (CBS)
 
-### 5.1.3. Фабрика несущих плат Carrier Boards Creator (CBC)
+### 5.1.3. Carrier Boards Creator (CBC)
 
-### 6. Мезонинные модули Mezzanine Modules (MM) 
+### 6. Mezzanine Modules (MM) 
 
-### 6.1. Библиотека мезонинных модулей Mezzanine Modules Library (MML)
+### 6.1. Mezzanine Modules Library (MML)
 
-### 6.1.1. Интерфейс мезонинных модулей Mezzanine Modules Interface (MMI)
+### 6.1.1. Mezzanine Modules Interface (MMI)
 
-### 6.1.2. Подсистемы мезонинных модулей Mezzanine Modules Subsystems (MMS)
+### 6.1.2. Mezzanine Modules Subsystems (MMS)
 
-### 6.1.3. Фабрика мезонинных модулей Mezzanine Modules Creator (MMC)
+### 6.1.3. Mezzanine Modules Creator (MMC)
 
-### 7. Менеджер ресурсов Boards Resource Manager (BRM)
+### 7. Boards Resource Manager (BRM)
 
-### 8. Уровень аппаратных абстракций Hardware Abstraction Layer (HAL)
-
-### 9. Сравнение с управляющей библиотекой Bardy
+### 8. Hardware Abstraction Layer (HAL)
