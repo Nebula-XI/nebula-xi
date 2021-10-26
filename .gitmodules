@@ -1,0 +1,6 @@
+[submodule "nebula-xi-info"]
+	path = nebula-xi-info
+	url = https://github.com/Nebula-XI/nebula-xi-info.git
+[submodule "nebula-xi-dev"]
+	path = nebula-xi-dev
+	url = https://github.com/Nebula-XI/nebula-xi-dev.git
