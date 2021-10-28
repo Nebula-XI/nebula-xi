@@ -7,3 +7,6 @@
 [submodule "nebula-xi-hal"]
 	path = nebula-xi-hal
 	url = https://github.com/Nebula-XI/nebula-xi-hal.git
+[submodule "nebula-xi-driver"]
+	path = nebula-xi-driver
+	url = https://github.com/Nebula-XI/nebula-xi-driver.git
