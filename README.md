@@ -2,7 +2,7 @@
 
 ## Requirements
 
-CMake 3.21, Ninja 1.10.2, GCC 10.3
+CMake 3.21, Ninja 1.10.2, Boost 1.75, GCC 10.3
 
 ## Configuring
 
