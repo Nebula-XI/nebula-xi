@@ -1,4 +1,48 @@
-# nebula-xi
+# Nebula-XI Super Project
+
+[![CMake](https://github.com/Nebula-XI/nebula-xi-dev/actions/workflows/cmake.yml/badge.svg)](https://github.com/Nebula-XI/nebula-xi-dev/actions/workflows/cmake.yml)
+
+## Requirements
+
+CMake 3.21, Ninja 1.10.2, GCC 10.3
+
+## Configuring
+
+### Linux x86_64
+
+`cmake --preset linux-x64-release`
+
+`cmake --preset linux-x64-debug`
+
+## Building
+
+### Linux x86_64
+
+
+`cmake --build --preset linux-x64-release`
+
+`cmake --build --preset linux-x64-release-rebuild`
+
+`cmake --build --preset linux-x64-release-verbose`
+
+`cmake --build --preset linux-x64-debug`
+
+`cmake --build --preset linux-x64-debug-rebuild`
+
+`cmake --build --preset linux-x64-debug-verbose`
+
+## Testing
+
+### Linux x86_64
+
+
+`ctest --preset linux-x64-release`
+
+`ctest --preset linux-x64-debug`
+
+
+
+## Documentation
 
 ### 1. Units Tree Configuration (UTC)
 
@@ -26,7 +70,7 @@
 
 ### 5. Components Library (CL)
 
-### 6. Carrier Boards (CB) 
+### 6. Carrier Boards (CB)
 
 ### 6.1. Carrier Boards Library (CBL)
 
@@ -36,7 +80,7 @@
 
 ### 6.1.3. Carrier Boards Creator (CBC)
 
-### 7. Mezzanine Modules (MM) 
+### 7. Mezzanine Modules (MM)
 
 ### 7.1. Mezzanine Modules Library (MML)
 
