@@ -1,7 +1,5 @@
 # Nebula-XI Super Project
 
-[![CMake](https://github.com/Nebula-XI/nebula-xi-dev/actions/workflows/cmake.yml/badge.svg)](https://github.com/Nebula-XI/nebula-xi-dev/actions/workflows/cmake.yml)
-
 ## Requirements
 
 CMake 3.21, Ninja 1.10.2, GCC 10.3
