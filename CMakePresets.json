@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base-configure",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "NEBULAXI_DEV_BUILD_TEST": true,
+        "NEBULAXI_DEV_TEST_VERBOSE": true,
+        "NEBULAXI_INFO_BUILD_TEST": true,
+        "NEBULAXI_INFO_TEST_VERBOSE": true,
+        "NEBULAXI_HAL_BUILD_TEST": true,
+        "NEBULAXI_HAL_TEST_VERBOSE": true
+      }
+    },
+    {
+      "name": "base-linux-x64",
+      "hidden": true,
+      "inherits": "base-configure",
+      "cacheVariables": {
+        "CMAKE_SYSTEM_PROCESSOR": "x86_64",
+        "CMAKE_SYSTEM_NAME": "Linux"
+      }
+    },
+    {
+      "name": "linux-x64-release",
+      "inherits": "base-linux-x64",
+      "displayName": "[x64] Configure Linux (Release)",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "linux-x64-debug",
+      "inherits": "base-linux-x64",
+      "displayName": "[x64] Configure Linux (Debug)",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "base-build",
+      "hidden": true,
+      "jobs": 4
+    },
+    {
+      "name": "linux-x64-release",
+      "inherits": "base-build",
+      "displayName": "[x64] Build Linux (Release)",
+      "configurePreset": "linux-x64-release"
+    },
+    {
+      "name": "linux-x64-release-rebuild",
+      "inherits": "linux-x64-release",
+      "displayName": "[x64] Rebuild Linux (Release)",
+      "cleanFirst": true
+    },
+    {
+      "name": "linux-x64-release-verbose",
+      "inherits": "linux-x64-release",
+      "displayName": "[x64] Verbose Rebuild Linux (Release)",
+      "cleanFirst": true,
+      "verbose": true
+    },
+    {
+      "name": "linux-x64-debug",
+      "inherits": "base-build",
+      "displayName": "[x64] Build Linux (Debug)",
+      "configurePreset": "linux-x64-debug"
+    },
+    {
+      "name": "linux-x64-debug-rebuild",
+      "inherits": "linux-x64-debug",
+      "displayName": "[x64] Rebuild Linux (Debug)",
+      "cleanFirst": true
+    },
+    {
+      "name": "linux-x64-debug-verbose",
+      "inherits": "linux-x64-debug",
+      "displayName": "[x64] Verbose Rebuild Linux (Debug)",
+      "cleanFirst": true,
+      "verbose": true
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "linux-x64-release",
+      "displayName": "[x64] Test Linux (Release)",
+      "configurePreset": "linux-x64-release"
+    },
+    {
+      "name": "linux-x64-debug",
+      "displayName": "[x64] Test Linux (Debug)",
+      "configurePreset": "linux-x64-debug"
+    }
+  ]
+}
